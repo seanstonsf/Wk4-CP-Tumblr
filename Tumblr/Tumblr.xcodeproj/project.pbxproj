@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B01FCBD31BC64A5E007F9CC1 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01FCBD21BC64A5E007F9CC1 /* TabBarViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B01FCBD51BC653B0007F9CC1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01FCBD41BC653B0007F9CC1 /* HomeViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B01FCBD71BC653BD007F9CC1 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01FCBD61BC653BD007F9CC1 /* SearchViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B01FCBD91BC653C8007F9CC1 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01FCBD81BC653C8007F9CC1 /* ComposeViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B01FCBDB1BC653D5007F9CC1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01FCBDA1BC653D5007F9CC1 /* ProfileViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B01FCBDD1BC653EB007F9CC1 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01FCBDC1BC653EB007F9CC1 /* ActivityViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B038F26B1BCCCA88002C38C9 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B038F26A1BCCCA88002C38C9 /* LogInViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		B09D731C1BC4F5650078FFD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09D731B1BC4F5650078FFD5 /* AppDelegate.swift */; };
 		B09D731E1BC4F5650078FFD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09D731D1BC4F5650078FFD5 /* ViewController.swift */; };
 		B09D73211BC4F5650078FFD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B09D731F1BC4F5650078FFD5 /* Main.storyboard */; };
@@ -34,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B01FCBD21BC64A5E007F9CC1 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		B01FCBD41BC653B0007F9CC1 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B01FCBD61BC653BD007F9CC1 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		B01FCBD81BC653C8007F9CC1 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		B01FCBDA1BC653D5007F9CC1 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B01FCBDC1BC653EB007F9CC1 /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		B038F26A1BCCCA88002C38C9 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		B09D73181BC4F5650078FFD5 /* Tumblr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tumblr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B09D731B1BC4F5650078FFD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B09D731D1BC4F5650078FFD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +91,11 @@
 		B09D730F1BC4F5650078FFD5 = {
 			isa = PBXGroup;
 			children = (
+				B01FCBD41BC653B0007F9CC1 /* HomeViewController.swift */,
+				B01FCBD61BC653BD007F9CC1 /* SearchViewController.swift */,
+				B01FCBD81BC653C8007F9CC1 /* ComposeViewController.swift */,
+				B01FCBDA1BC653D5007F9CC1 /* ProfileViewController.swift */,
+				B01FCBDC1BC653EB007F9CC1 /* ActivityViewController.swift */,
 				B09D731A1BC4F5650078FFD5 /* Tumblr */,
 				B09D732F1BC4F5650078FFD5 /* TumblrTests */,
 				B09D733A1BC4F5650078FFD5 /* TumblrUITests */,
@@ -100,7 +119,9 @@
 				B09D731B1BC4F5650078FFD5 /* AppDelegate.swift */,
 				B09D731D1BC4F5650078FFD5 /* ViewController.swift */,
 				B09D731F1BC4F5650078FFD5 /* Main.storyboard */,
+				B01FCBD21BC64A5E007F9CC1 /* TabBarViewController.swift */,
 				B09D73221BC4F5650078FFD5 /* Assets.xcassets */,
+				B038F26A1BCCCA88002C38C9 /* LogInViewController.swift */,
 				B09D73241BC4F5650078FFD5 /* LaunchScreen.storyboard */,
 				B09D73271BC4F5650078FFD5 /* Info.plist */,
 			);
@@ -255,8 +276,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B01FCBD71BC653BD007F9CC1 /* SearchViewController.swift in Sources */,
 				B09D731E1BC4F5650078FFD5 /* ViewController.swift in Sources */,
+				B038F26B1BCCCA88002C38C9 /* LogInViewController.swift in Sources */,
+				B01FCBD31BC64A5E007F9CC1 /* TabBarViewController.swift in Sources */,
+				B01FCBDD1BC653EB007F9CC1 /* ActivityViewController.swift in Sources */,
+				B01FCBD91BC653C8007F9CC1 /* ComposeViewController.swift in Sources */,
+				B01FCBDB1BC653D5007F9CC1 /* ProfileViewController.swift in Sources */,
 				B09D731C1BC4F5650078FFD5 /* AppDelegate.swift in Sources */,
+				B01FCBD51BC653B0007F9CC1 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +509,7 @@
 				B09D73421BC4F5650078FFD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B09D73431BC4F5650078FFD5 /* Build configuration list for PBXNativeTarget "TumblrTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +518,7 @@
 				B09D73451BC4F5650078FFD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B09D73461BC4F5650078FFD5 /* Build configuration list for PBXNativeTarget "TumblrUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +527,7 @@
 				B09D73481BC4F5650078FFD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
